@@ -1,0 +1,34 @@
+# --- AZURE STORAGE ---
+AZURE_STORAGE_CONNECTION_STRING="Your_Key"
+
+# --- AZURE OPENAI 
+AZURE_OPENAI_API_KEY="Your_Key"
+AZURE_OPENAI_ENDPOINT="Your_Key"
+AZURE_OPENAI_API_VERSION="Your_Key"
+AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4o"
+
+# Add this for clarity (optional, but good practice)
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT="text-embedding-3-small"
+
+# --- AZURE AI SEARCH (The Knowledge Base) ---
+AZURE_SEARCH_ENDPOINT="Your_Key"
+AZURE_SEARCH_API_KEY="Your_Key"
+AZURE_SEARCH_INDEX_NAME="policy-sight-rules"
+
+# --- AZURE VIDEO INDEXER (Identity Auth) ---
+# Found in Azure Portal -> Video Indexer Resource -> Overview
+AZURE_VI_NAME="policy-sight-001"
+AZURE_VI_LOCATION="eastus" # change location to trial if facing issue
+AZURE_VI_ACCOUNT_ID="Your_Key"
+AZURE_SUBSCRIPTION_ID="Your_Key"
+AZURE_RESOURCE_GROUP="Policy-SIight-Project"
+
+# --- OBSERVABILITY (Azure Monitor) ---
+APPLICATIONINSIGHTS_CONNECTION_STRING="Your_Key"
+
+# --- LANGSMITH (Tracing)
+LANGCHAIN_TRACING_V2=true 
+LANGCHAIN_ENDPOINT="Your_Key"
+LANGCHAIN_API_KEY="Your_Key"
+LANGCHAIN_PROJECT="policy-sight"
+
